@@ -19,9 +19,42 @@
     margin-left: 1rem;
 }
 
+#logo-container h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .header-links {
     justify-content: space-between;
     float: right;
-    margin-top: 1.3rem;
+    margin-top: 1.75rem;
     margin-right: 1rem;
+}
+
+.header-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-container {
+    display: inline-flex;
+}
+
+.header-description {
+    padding: 0.5rem;
+}
+
+.header-description h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.header-description p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-image {
+    margin-top: 3.9rem;
 }
