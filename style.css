@@ -153,4 +153,16 @@
     width: 90px;
     height: 45px;
 }
+
+.land-footer {
+    display: flex;
+    height: 70px;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.land-footer-text {
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
 }
