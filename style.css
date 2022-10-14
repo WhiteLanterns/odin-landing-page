@@ -1,4 +1,27 @@
+* {
+    font: Roboto;
+}
+
 .header {
     display: flex;
     background-color: #1F2937;
+    flex-direction: column;
+}
+
+.nav-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#logo-container {
+    float: left;
+    margin-left: 1rem;
+}
+
+.header-links {
+    justify-content: space-between;
+    float: right;
+    margin-top: 1.3rem;
+    margin-right: 1rem;
 }
