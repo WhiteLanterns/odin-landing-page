@@ -151,6 +151,7 @@
   background-color: #3882f6;
   font-size: 18px;
   font-weight: bolder;
+  border: 1px solid;
   border-color: #f9faf8;
   color: #f9faf8;
   border-radius: 25px;
@@ -158,6 +159,14 @@
   margin-right: 4rem;
   width: 90px;
   height: 45px;
+}
+
+.cta-button button:hover {
+  background-color: #4e92ff;
+}
+
+.cta-button button:active {
+  background-color: #244f94;
 }
 
 .land-footer {
